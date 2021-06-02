@@ -26,7 +26,6 @@ const reducer = (
     default:
       return state
   }
-
 }
 
 export default reducer
