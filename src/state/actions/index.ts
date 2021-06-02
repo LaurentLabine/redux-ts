@@ -1,11 +1,6 @@
 // This file will contain all the different interfaces that describe the different actions of our App
 // ref to Course section 4
 import { ActionType } from '../action-types'
-interface RepositariesState {
-  loading: boolean
-  error: string | null
-  data: string[]
-}
 
 interface SearchRepositoriesAction {
   type: ActionType.SEARCH_REPOSITORIES
