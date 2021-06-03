@@ -1,6 +1,7 @@
 import { ActionType } from '../action-types'
 import { Action } from '../actions'
 
+//Return type annotation definition
 interface RepositariesState {
   loading: boolean
   error: string | null
